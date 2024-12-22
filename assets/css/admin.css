@@ -1,0 +1,52 @@
+.whc-admin-wrap {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.whc-admin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.whc-admin-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.whc-admin-tab {
+    padding: 10px 20px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.whc-admin-tab.active {
+    background: #2271b1;
+    color: #fff;
+}
+
+.whc-form-group {
+    margin-bottom: 20px;
+}
+
+.whc-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.whc-description {
+    color: #666;
+    font-size: 13px;
+    margin-top: 5px;
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Additional gradient for the customization bars -->
+    <linearGradient id="barsGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:0.75" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with brand gradient -->
+  <circle cx="250" cy="250" r="240" fill="url(#brandGradient)" />
+  
+  <!-- Stylized browser window frame -->
+  <rect x="120" y="140" width="260" height="220" rx="12" fill="white" opacity="0.1" />
+  
+  <!-- Header bar representation -->
+  <rect x="140" y="160" width="220" height="30" rx="6" fill="url(#barsGradient)" />
+  
+  <!-- Simplified A from your logo, positioned in header bar -->
+  <path 
+    d="M225 180 L245 165 L265 180 L255 180 L245 170 L235 180 Z" 
+    fill="url(#brandGradient)" 
+  />
+  
+  <!-- Customization bars representing settings -->
+  <rect x="160" y="210" width="180" height="12" rx="6" fill="url(#barsGradient)" opacity="0.9" />
+  <rect x="160" y="240" width="140" height="12" rx="6" fill="url(#barsGradient)" opacity="0.8" />
+  <rect x="160" y="270" width="160" height="12" rx="6" fill="url(#barsGradient)" opacity="0.7" />
+  <rect x="160" y="300" width="120" height="12" rx="6" fill="url(#barsGradient)" opacity="0.6" />
+</svg>

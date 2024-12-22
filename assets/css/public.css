@@ -1,0 +1,22 @@
+/* Public styles */
+.whc-optimized-image {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.whc-optimized-image.loading {
+    opacity: 0;
+}
+
+.whc-optimized-image.loaded {
+    opacity: 1;
+}
+
+/* Custom animations for lazy-loaded images */
+@keyframes whcFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.whc-fade-in {
+    animation: whcFadeIn 0.5s ease-in-out;
+}
