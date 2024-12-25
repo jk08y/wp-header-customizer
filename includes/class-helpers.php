@@ -13,7 +13,6 @@ class Helpers {
         // Remove potentially harmful content
         $css = wp_strip_all_tags($css);
         
-        // Basic CSS validation
         if (strpos($css, '{') === false || strpos($css, '}') === false) {
             return '';
         }
