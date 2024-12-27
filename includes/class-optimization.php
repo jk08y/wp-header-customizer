@@ -72,7 +72,7 @@ class Optimization {
 
     public function defer_parsing_of_js($tag, $handle, $src) {
         if (is_admin()) {
-            return $tag;
+            return $tag;  //fixedoveride_removed loops
         }
 
         // Add defer attribute
