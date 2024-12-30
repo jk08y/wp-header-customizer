@@ -4,7 +4,7 @@ if (!defined('WP_UNINSTALL_PLUGIN')) {
     exit;
 }
 
-// 
+// delete & update options 
 delete_option('whc_options');
 
 // Clear any cached data
